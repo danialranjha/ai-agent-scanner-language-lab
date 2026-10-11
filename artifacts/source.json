@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/bryand410/mcp-scrutiny",
+  "commit": "751cdd4889b0670524597ec6c4aa80c4b1d0cefd",
+  "files": [
+    {
+      "path": "vendor/mcp_scrutiny/features.py",
+      "upstream_path": "mcp_scrutiny/features.py",
+      "git_blob": "0cfb27700ab065d3df7288d61f69fea2810eaff7",
+      "sha256": "fcd224dee914f523deea038d7e16f160d289bd9506b598d37e343dce18e5c188",
+      "bytes": 15462
+    },
+    {
+      "path": "vendor/mcp_scrutiny/model.py",
+      "upstream_path": "mcp_scrutiny/model.py",
+      "git_blob": "9398b912728cbc6bd9c3b41f0153bba2b5300b11",
+      "sha256": "af6cbbfb45663df43e80bcdd715337d325adfb3f3ccf957ff96b6a5e2e637037",
+      "bytes": 11622
+    },
+    {
+      "path": "vendor/mcp_scrutiny/data/model.json",
+      "upstream_path": "mcp_scrutiny/data/model.json",
+      "git_blob": "656fdd030a0186ee3da91abdcd04bdd7302a2eae",
+      "sha256": "47301997f40294edec20b7743ce6754e10b3c8f2411508162f71a437bf83d4c1",
+      "bytes": 3597
+    },
+    {
+      "path": "vendor/LICENSE",
+      "upstream_path": "LICENSE",
+      "git_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    }
+  ],
+  "adaptation": "Four upstream files copied byte-for-byte. Local empty package initializer. No full CLI, detectors or collection code."
+}

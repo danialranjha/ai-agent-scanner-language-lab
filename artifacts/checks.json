@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "errors": 0,
+    "failed_tests": [],
+    "failures": 0,
+    "successful": true,
+    "tests": 8
+  },
+  "functional_faults": {
+    "flag_all_french": {
+      "errors": 0,
+      "failed_tests": [
+        "test_benign_controls_remain_unflagged (test_experiment.AssayTests.test_benign_controls_remain_unflagged)",
+        "test_independent_score_reconstruction_and_threshold (test_experiment.AssayTests.test_independent_score_reconstruction_and_threshold)",
+        "test_language_witness_and_threshold (test_experiment.AssayTests.test_language_witness_and_threshold)",
+        "test_quoted_instruction_is_false_positive (test_experiment.AssayTests.test_quoted_instruction_is_false_positive)",
+        "test_uncovered_paraphrase_and_spanish_remain_misses (test_experiment.AssayTests.test_uncovered_paraphrase_and_spanish_remain_misses)"
+      ],
+      "failures": 5,
+      "successful": false,
+      "tests": 8
+    },
+    "omit_french_marker": {
+      "errors": 0,
+      "failed_tests": [
+        "test_language_witness_and_threshold (test_experiment.AssayTests.test_language_witness_and_threshold)",
+        "test_only_one_feature_changes_and_logit_explains_difference (test_experiment.AssayTests.test_only_one_feature_changes_and_logit_explains_difference)",
+        "test_quoted_instruction_is_false_positive (test_experiment.AssayTests.test_quoted_instruction_is_false_positive)"
+      ],
+      "failures": 3,
+      "successful": false,
+      "tests": 8
+    }
+  },
+  "runtime": "3.13.5"
+}
